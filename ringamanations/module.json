@@ -1,0 +1,32 @@
+{
+  "id": "ringamanations",
+  "title": "Ringamanations",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>A module to replace emanation templates with Sequencer rings.</p>",
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "sequencer",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "scripts": [
+    "scripts/main.js"
+  ]
+}
